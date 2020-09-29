@@ -6,13 +6,34 @@
 html{
     background: rgb(141, 199, 233);
 }
+.navegacion{
+    background:transparent;
+    box-shadow: 0px 1px 6px 0px rgba(50, 115, 189, 0.808);
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+}
+.list a{
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    padding: 20px 10px;
+    color: black;
+}
+a:hover{
+    color: #452483;
+    background: rgb(123, 186, 223);
+}
 .contenedor{
     width: 100%;
     padding: 15px;
 }
 .formulario{
     background: rgb(241, 238, 238);
-    box-shadow: 0px 1px 6px 0px rgba(69, 41, 192, 0.808);
+    box-shadow: 0px 1px 6px 0px rgba(170, 166, 189, 0.808);
     padding: 3px;
     max-width: 90%;
     margin: auto;
@@ -26,7 +47,10 @@ h1{
 .margin{
     margin-top: 30px;
 }
-input{
+input,
+label,
+select{
+    color: rgb(82, 81, 81);
     font-size: 20px;
     width: 70%;
     padding: 10px;
@@ -74,4 +98,29 @@ p{
         margin-top: 150px;
         border-radius: 2%;
     }
+}
+/* TABLE */
+.table{
+    background: rgb(241, 238, 238);
+    box-shadow: 0px 1px 6px 0px rgba(69, 41, 192, 0.808);
+    padding: 2px;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+}
+.table2{
+    width: 50%;
+}
+td{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(231, 229, 229);
+}
+
+/* FOOTER */
+footer{
+    background-color: rgb(27, 27, 27);
+    text-align: center;
+    font-size: 20px;
+    color: white;
 }

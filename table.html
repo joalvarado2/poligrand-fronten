@@ -9,7 +9,211 @@
 </head>
 
 <body>
-    
+    <nav class="navegacion">
+        <div class="list">
+            <a href="login.html">Inicio</a>
+            <a href="">Nosotros</a>
+            <a href="">Integrantes</a>
+            <a href="">cerrar sesión</a>
+        </div>
+    </nav>
+    <section class="contenedor">
+        <div class="title_task">
+            <h1>Tareas por hacer:</h1>
+        </div>
+        <div class="table">
+            <table id="tareas">
+                <thead>
+                    <tr>
+                        <th>CODIGO TAREA</th>
+                        <th>TAREA</th>
+                        <th>DESCRIPCION</th>
+                        <th>ESTADO</th>
+                        <th>FECHA SOLICITUD</th>
+                        <th>FECHA DE ENTREGA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>201</td>
+                        <td>LEVANTAR REQUISITOS DE LA WEB</td>
+                        <td>SE NECESITA REALIZAR EL LEVANTAMIENTO DE REQUISITOS DE LA WEB</td>
+                        <td>ASIGNADO</td>
+                        <td>13/06/2020</td>
+                        <td>21/06/2020</td>
+                    </tr>
+                    <tr>
+                        <td>308</td>
+                        <td>CREACIÓN DEL HTML</td>
+                        <td>SE NECESITA CREAR LA ESTRUCTURA DEL HTML DE LA WEB</td>
+                        <td>ASIGNADO</td>
+                        <td>10/06/2020</td>
+                        <td>25/06/2020</td>
+                    </tr>
+                    <tr>
+                        <td>557</td>
+                        <td>SOPORTE A LA APLICACION</td>
+                        <td>HACER CONSTANTEMENTE SOPORTE TECNICO A LA APLICACION WEB</td>
+                        <td>ASIGNADO </td>
+                        <td>15/05/2020</td>
+                        <td>INDEFINIDO</td>
+                    </tr>
+                    <tr>
+                        <td>605</td>
+                        <td>PERSONALIZAR BOTONES</td>
+                        <td>DAR MEJOR ESTILO A LOS BOTOS CON CSS</td>
+                        <td>SIN ASIGNAR</td>
+                        <td>15/05/2020</td>
+                        <td>30/06/2020</td>
+                    </tr>
+                    <tr>
+                        <td>428</td>
+                        <td>PAGINA DE LOGING</td>
+                        <td>SE NECESITA REALIZAR UNA PAGINA DE LOGING SENCILLA</td>
+                        <td>SIN ASIGNAR</td>
+                        <td>15/06/2020</td>
+                        <td>05/07/2020</td>
+                    </tr>
+                    <tr>
+                        <td>306</td>
+                        <td>PARAMETRIZAR BD</td>
+                        <td>SE NECESITA REALIZAR UNA PARAMETRIZACIÓN DE LA BD</td>
+                        <td>SIN ASIGNAR</td>
+                        <td>12/06/2020</td>
+                        <td>25/07/2020</td>
+                    </tr>
+                    <tr>
+                        <td>506</td>
+                        <td>CREACIÓN DE BANNER</td>
+                        <td>SE NECESITA REALIZAR UN BANNER ANEXANDO LOGO DE LA UNIVERSIDAD</td>
+                        <td>SIN ASIGNAR</td>
+                        <td>12/06/2020</td>
+                        <td>25/07/2020</td>
+                    </tr>
+                    <tr>
+                        <td>896</td>
+                        <td>HACER DEPLOY DE LA APLICACIÓN</td>
+                        <td>SE NECESITA HACER UN DEPLOY DE LA APLICACIÓN EN NETLIFY</td>
+                        <td>SIN ASIGNAR</td>
+                        <td>12/06/2020</td>
+                        <td>25/07/2020</td>
+                    </tr>
+                    <tr>
+                        <td>807</td>
+                        <td>CREAR DESCARGAR DE PROJECT</td>
+                        <td>SE NECESITA CREAR UN LINK DE DESCARGA PARA PODER BAJAR EL PROYECTO COMPLETO</td>
+                        <td>SIN ASIGNAR</td>
+                        <td>22/05/2020</td>
+                        <td>25/07/2020</td>
+                    </tr>
+                    <tr>
+                        <td>748</td>
+                        <td>ENVIAR INFORME DE AVANCE SEMANAL</td>
+                        <td>GENERAR Y ENVIAR INFORME CON LAS ACTIVIDADES REALIZADAS Y EN CURSO DE LA SEMANA</td>
+                        <td>SIN ASIGNAR</td>
+                        <td>16/06/2020</td>
+                        <td>19/06/2020</td>
+                    </tr>
+                    <tr>
+                        <td>948</td>
+                        <td>REGISTRAR TIEMPOS DEDICADOS AL PROYECTO CLIENTE ABC</td>
+                        <td>CONSOLIDAR Y REGISTRAR TIEMPOS DEDICADOS PROYECTO CLIENTE AAA</td>
+                        <td>SIN ASIGNAR</td>
+                        <td>16/06/2020</td>
+                        <td>30/06/2020</td>
+                    </tr>
+                    <tr>
+                        <td>848</td>
+                        <td>ESTIMAR NUEVO REPORTE USUARIO</td>
+                        <td>REUNIÓN CON EL USUARIO, ANÁLISIS DEL REQUERIMIENTO DEL REPORTE Y ESTIMACIÓN</td>
+                        <td>SIN ASIGNAR</td>
+                        <td>17/06/2020</td>
+                        <td>17/06/2020</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+
+                        <th>CODIGO TAREA</th>
+                        <th>TAREA</th>
+                        <th>DESCRIPCION</th>
+                        <th>ESTADO</th>
+                        <th>FECHA SOLICITUD</th>
+                        <th>FECHA DE ENTREGA</th>
+                    </tr>
+                </tfoot>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section class="contenedor">
+        <div class="title_task">
+            <h1>Personal del proyecto:</h1>
+        </div>
+        <div class="table table2">
+            <table id="table_users">
+                <thead>
+                    <tr>
+                        <th>NOMBRE</th>
+                        <th>CORREO</th>
+                        <th>CARGO</th>
+                        <th>CODIGO DE TAREA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>JUAN SEBASTIAN TERREROS</td>
+                        <td>JSTE@PROJECTPSP.COM</td>
+                        <td>FRONT END</td>
+                        <td>557</td>
+
+                    </tr>
+                    <tr>
+                        <td>JONATHAN STEVEEN ALVARADO CHACON</td>
+                        <td>BSCG@PROJECTPSP.COM</td>
+                        <td>BASES DE DATOS</td>
+                        <td>308</td>
+
+                    </tr>
+                    <tr>
+                        <td>MARCO STIVEN BETANCOURT PULIDO</td>
+                        <td>MSBP@PROJECTPSP.COM</td>
+                        <td>FRONT END</td>
+                        <td>308</td>
+
+                    </tr>
+                    <tr>
+                        <td>JOHAN SEBASTIAN MONTEALEGRE</td>
+                        <td>JSM@PROJECTPSP.COM</td>
+                        <td>BACK END</td>
+                        <td>201</td>
+
+                    </tr>
+                    <tr>
+                        <td>JOHAN STEDWAR SANTOS GONZALEZ</td>
+                        <td>JSSG@PROJECTPSP.COM</td>
+                        <td>BACK END</td>
+                        <td>557</td>
+
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th>NOMBRE</th>
+                        <th>CORREO</th>
+                        <th>CARGO</th>
+                        <th>CODIGO DE TAREA</th>
+                    </tr>
+                </tfoot>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <!-- Aca empieza el pie de pagina  -->
+    <footer class="contenedor">
+        <p>Desarrollo PSP co 2020 &copy; </p>
+    </footer>
 </body>
 
 </html>
